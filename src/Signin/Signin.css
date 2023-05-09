@@ -1,0 +1,66 @@
+.signin{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('../Assets/background-img.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.signin .container{
+    display: flex;
+}
+.signin .container .signin-left{
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10%;
+    gap: 15px;
+}
+.signin .container .signin-left h2{
+    color: #FFFFFF;
+    text-align: center;
+    /* margin-bottom: 100px; */
+}
+.signin .container .signin-left form{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.signin .container .signin-left form input{
+    width: 100%;
+    padding: 10px;
+    border-radius:30px;
+}
+.signin button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 24px;
+    color:  #8B15E8;
+    font-weight: 600;
+    margin-top: 20px;
+    
+}
+.right{
+    width: 50%;
+}
+.right img{
+    width: 60%;
+    height: 90%;
+    margin: 0 10% 0 0;
+}
+.new-account a{
+    color: #FFFFFF;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+}
